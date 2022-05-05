@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Fira+Sans&family=Great+Vibes&family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,400;1,100&family=Roboto:ital,wght@0,400;0,500;0,900;1,100&family=Saira:wght@200;400;600;700&family=Sora:wght@100;400;700;800&display=swap');
+
+
+.App{
+width: 100%;
+height: auto;
+background-color: #111;
+display: flex;
+justify-content: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+a:hover{
+color: red;
+}
+.BoxContent{
+  max-width: 1280px;
+  width: 100%;
+  height: 80vh;
+ margin-bottom: 20px;
+}
+
+header{
+  width: 100%;
+  padding: 0 25px;
+  max-width: 1280px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+ position: relative;
+  justify-content: space-between;
+}
+
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+header nav ul {
+  display: flex;
+  gap: 25px;
+
+}
+header nav ul li {
+ list-style: none;
+}
+
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight:500;
+  text-transform: uppercase;
+
+}
+
+
+.logo{
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.nikelogo{
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translate(20%, -1%);
+  z-index: 120;
+  
+}
+
+.settings{
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.contentShoes{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+}
+
+.leftContent{
+ 
+  width: 100%;
+  height:auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leftContent span{
+  
+  text-align: left;
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 10px;
+  color: #BDBDBD;
+}
+.leftContent h1{
+  font-size: 35px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #fff;
+  
+}
+
+.leftContent p{
+  font-size: 24px;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+.leftContent .bio{
+  width: 75%;
+  text-align: left;
+}
+.leftContent .bio p{
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+
+.leftContent .oldprice{
+  width: 75%;
+  display:flex;
+  flex-direction: column;
+  margin-top: 10px;
+  height: auto;
+}
+ .oldprice span{
+   font-family: 'Montserrat';
+   font-size: 16px;
+   margin-top: 10px;
+
+ }
+.rightContent{
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.rightContent .shoes{
+  position: absolute;
+  top: 100px;
+  right: 120px;
+  z-index: 100;
+}
+
+.numero1{
+  font-size: 170px;
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #bdbdbd91;
+ 
+}
+
+.buy{
+  width: 100%;
+  background-color: #111;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle{
+  display: flex;
+  align-items: center;
+  height: auto;
+
+  justify-content: center;
+}
+
+.toggle a{
+  color: #BDBDBD;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+
+}
+
+.toggle a p {
+  font-size: 20px;
+font-family: 'Fira Sans';
+font-weight: 600;
+text-transform: uppercase;
+  color: #fff;
+}
+
+.btn{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn span{
+color: #111;
+font-family: 'montserrat';
+font-weight: bold;
+font-size: 30px;
+color: #fff;
+margin-bottom: 10px;
+}
+
+.btn button{
+  width: 130px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.language{
+  color: #fff;
+  font-family: 'montserrat';
+  display: flex;
+  gap: 10px;
+}
+
+.UA{
+  color: #BDBDBD;
+  font-family: 'montserrat';
+}
